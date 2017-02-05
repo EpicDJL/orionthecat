@@ -44,3 +44,103 @@ function RunPrefixMethod(obj, method) {
 	}
 
 }
+
+*
+{
+	padding: 0;
+	margin: 0;
+}
+
+html, body
+{
+	height: 100%;
+	font-family: "Segoe UI", arial, helvetica, freesans, sans-serif;
+	color: #333;
+	background-color: #fff;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+body
+{
+	margin: 10px;
+}
+
+p
+{
+	margin: 0 0 1em 0;
+}
+
+section
+{
+	display: block;
+	float: right;
+	width: 40%;
+	padding: 10px;
+	margin: 0;
+	border: 2px solid #ddd;
+	cursor: pointer;
+}
+
+section img
+{
+	width: 100%;
+}
+
+section p
+{
+	font-weight: bold;
+	text-align: center;
+	margin: 0;
+}
+
+section:-webkit-full-screen
+{
+	float: none;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	border: 0 none;
+	background-color: #f00;
+}
+
+section:-moz-full-screen
+{
+	float: none;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	border: 0 none;
+}
+
+section:-ms-full-screen
+{
+	float: none;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	border: 0 none;
+}
+
+section:-o-full-screen
+{
+	float: none;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	border: 0 none;
+}
+
+section:full-screen
+{
+	float: none;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	border: 0 none;
+}
