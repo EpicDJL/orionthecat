@@ -14,7 +14,7 @@ $(function(){
 
 var e = document.getElementById("fullscreen");
 
-e.onmousemove = function() {
+e.onclick = function() {
 
 	if (RunPrefixMethod(document, "FullScreen") || RunPrefixMethod(document, "IsFullScreen")) {
 		RunPrefixMethod(document, "CancelFullScreen");
